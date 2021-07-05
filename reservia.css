@@ -1,0 +1,689 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.logo{
+    height: 60px;
+    width: 120px;
+
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#menu{
+	font-size: 15px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 55%;
+	width: 40%;
+	height: 10%;
+}
+
+.menu-hebergements{
+	color: blue;
+	border-top: 2px blueviolet solid;
+	padding-top: 4%;	
+}
+
+.menu-activites{
+	padding-top: 4%;
+	color: black;
+}
+
+.menu-inscription{
+	color: blue;
+	margin-right: 3%;
+	margin-top: 1%;
+}
+
+.fa-map-marker-alt{
+	border: 1px solid black;
+    padding: 0.5%;
+    background-color: silver;
+    border-radius: 10px 0px 0px 10px;
+}
+
+input{
+	padding: 0.5%;
+    margin-left: -0.5%;
+    position: relative;
+    top: -1px;
+}
+
+.recherche{
+	border: 1px solid black;
+	padding: 0.5%;
+    margin-left: -0.5%;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #3c3dff;
+    color: white;
+}
+
+.fa-search{
+	font-size: 0px;
+}
+.filtres{
+	margin-top: -2.3%;
+	margin-left: 5%;
+}
+
+.economique{
+	background-color: white;
+   border-radius: 50px;
+   border: 1px solid #c2d9ec;
+   padding: 0px 10px 0px 0px;
+}
+
+.fa-money-bill-wave{
+	color: blue;
+   background-color: #87c8ff;
+   border: 1px solid #87c8ff;
+   border-radius: 50px;
+   padding: 8px;
+   margin-right: 8px;
+}
+
+.familial{
+	background-color: white;
+   border-radius: 50px;
+   border: 1px solid #c2d9ec;
+   padding: 0px 10px 0px 0px;
+}
+
+.fa-child{
+	color: blue;
+   background-color: #87c8ff;
+   border: 1px solid #87c8ff;
+   border-radius: 50px;
+   padding: 8px;
+   margin-right: 8px;
+}
+
+.romantique{
+	background-color: white;
+   border-radius: 50px;
+   border: 1px solid #c2d9ec;
+   padding: 0px 10px 0px 0px;
+}
+
+.fa-heart{
+	color: blue;
+   background-color: #87c8ff;
+   border: 1px solid #87c8ff;
+   border-radius: 50px;
+   padding: 8px;
+   margin-right: 8px;
+}
+
+.animaux{
+	background-color: white;
+   border-radius: 50px;
+   border: 1px solid #c2d9ec;
+   padding: 0px 10px 0px 0px;
+}
+
+.fa-dog{
+	color: blue;
+   background-color: #87c8ff;
+   border: 1px solid #87c8ff;
+   border-radius: 50px;
+   padding: 8px;
+   margin-right: 8px;
+}
+
+.fa-info{
+	font-size: 16px;
+	background-color: white;
+	color: blue;
+	border: 1px solid skyblue;
+	border-radius: 50px 50px 50px 50px;
+	padding: 8px 13px 8px 13px;
+}
+
+.hebergements{
+	display: flex;
+	justify-content: space-around;
+}
+
+.marseille{
+	width: 60%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-color:#eff3f2;
+	border-radius: 25px;
+}
+
+.populaire{
+	width: 30%;
+	background-color: #eff3f2;
+	border-radius: 25px;
+}
+
+.marseille_conteneur{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#hebergements{
+	margin-left: 2%;
+}
+
+.marseille_article{
+	border: 2px solid white;
+	background-color: white;
+	margin: 1%;
+	width: 350px;
+	height: 300px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.marseille_image{
+	max-width: 350px;
+	max-height: 300px;
+	width: 100%;
+	height: 60%;
+	object-fit: cover;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.populaire_conteneur{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 550px;
+}
+.populaire_article{
+	border: 2px solid white;
+    background-color: white;
+    margin: 11px 25px 10px 25px;
+    width: 500px;
+    height: 230px;
+    border-radius: 15px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-shadow: 1px 1px 5px silver;
+}
+.populaire_image{
+	max-width: 350px;
+	max-height: 300px;
+	width: 220px;
+	height: 230px;
+	object-fit: cover;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+    margin-right: 10px;
+}
+
+.marseille_populaire{
+	margin-left: 5%;
+}
+
+.fa-star{
+	color: blue;
+}
+
+.more{
+	position: relative; 
+}
+
+a{
+	text-decoration: none;
+}
+
+.marseille_activites{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.activites_photo{
+    max-width: 350px;
+    max-height: 224px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_image{
+    max-width: 350px;
+    max-height: 500px;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_frioul{
+    width: 350px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_image_2{
+    width: 350px;
+    height: 180px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_marseille{
+	border: 1px solid white;
+    background-color: white;
+    margin: 0% 4% 7.8% 4%;
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.activites_marseille_0{
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 270px;
+    margin-bottom: 5%;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.activites_marseille_1{
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 210px;
+    margin-bottom: 5%;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.activites_marseille_2{
+     border: 1px solid white;
+    border-radius: 15px;
+    height: 240px;
+    margin-bottom: 5%;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.pieds_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: silver;
+    font-size: 20px;
+    padding: 5px 550px 23px 65px;
+    font-weight: bold;
+}
+
+.propos{
+    display: flex;
+}
+
+.nos_hebergements{
+    display: flex;
+}
+
+.assistance{
+    display: flex;
+}
+
+
+
+
+
+
+@media all and (max-width:1024px)
+{
+
+header{
+	display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.logo{
+	width: 40%;
+	height: 40%;
+}
+
+#menu{
+	font-size: 20px;
+	margin-right: -38%;
+	margin-top: 20%;
+	margin-bottom: 4%;
+	padding-left: 5%;
+}
+
+.menu-hebergements{
+	border-top: none;
+	margin-right: 51%;
+	margin-left: -88%;
+}
+
+.menu-activites{
+	margin-right: 30%;
+}
+
+.menu-inscription{
+	position: relative;
+	left: 35px;
+	bottom: -20px;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+h1{
+    font-size: 28px;
+    margin-left: 12px;
+}
+
+.fa-map-marker-alt{
+	border: 1px solid black;
+    padding: 2.5%;
+    background-color: silver;
+    border-radius: 10px 0px 0px 10px;
+    padding-right: 12px;
+    padding-bottom: 3%;
+}
+
+input{
+	font-size: 20px;
+	padding: 1.5%;
+    margin-left: -1.5%;
+    position: relative;
+    top: 1px;
+}
+
+.recherche{
+	border: 1px solid black;
+    margin-left: -1.5%;
+    padding-top: 6.2%;
+    padding-bottom: 13px;
+    padding-right: 10%;
+    border-radius: 2px 15px 15px 0px;
+    background-color: #3c3dff;
+    color: white;
+    font-size: 0px;
+}
+
+.fa-search{
+	background-color: #3c3dff;
+    margin-left: -9%;
+    color: white;
+    font-size: 16px;
+}
+
+.filtres{
+    margin: 0px 0px 10px -10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px 0px 15px;
+}
+
+.fa-money-bill-wave {
+    color: blue;
+    background-color: #87c8ff;
+    border: 1px solid #87c8ff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 8px;
+}
+
+.economique {
+     background-color: white;
+    border-radius: 50px;
+    border: 1px solid #c2d9ec;
+    font-size: 17px;
+ }
+
+ .fa-child  {
+    color: blue;
+    background-color: #87c8ff;
+    border: 1px solid #87c8ff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 8px;
+    margin-left: -6px;
+}
+
+.familial{
+	background-color: white;
+    border-radius: 50px;
+    border: 1px solid #c2d9ec;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.fa-heart {
+    color: blue;
+    background-color: #87c8ff;
+    border: 1px solid #87c8ff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: -6px;
+}
+
+.romantique {
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #c2d9ec;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.fa-dog {
+    color: blue;
+    background-color: #87c8ff;
+    border: 1px solid #87c8ff;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 8px;
+    margin-left: -6px;
+}
+
+.animaux {
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #c2d9ec;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.marseille_populaire{
+    margin-left: 30px;
+}
+
+.populaire {
+    width: 390px;
+    height: 820px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+.populaire_image {
+    max-width: 350px;
+    max-height: 300px;
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 10px;
+    }
+
+.populaire_conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 390px;
+    height: 730px;
+}
+
+.populaire_article {
+    border: 2px solid white;
+    background-color: white;
+    margin: -40px 25px 20px 15px;
+    width: 390px;
+    height: 179px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-shadow: 1px 1px 5px silver;
+    justify-content: space-between;
+}
+
+.populaire_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+
+.hebergements {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+ }
+
+.marseille_image{
+    max-width: 350px;
+    max-height: 300px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+ .marseille_article{
+	border: 1px solid white;
+    background-color: white;
+    margin: 5px 10px 5px 20px;
+    width: 350px;
+    height: 235px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.marseille {
+    width: 390px;
+    height: 1630px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+.marseille_conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.more{
+	position: relative;
+}
+
+.activites_image{
+    max-width: 400px;
+    max-height: 500px;
+    width: 365px;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_marseille{
+    border: 1px solid white;
+    background-color: white;
+    margin: 0% 4% 7.8% 4%;
+    width: 395px;
+    height: 210px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px silver;
+}
+.activites_marseille_0 {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 235px;
+    width: 360px;
+    margin-bottom: 5%;
+    margin-left: 17px;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.activites_photo {
+    max-width: 400px;
+    max-height: 224px;
+    width: 360px;
+    height: 170px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_marseille_1 {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 210px;
+    width: 360px;
+    margin-bottom: 20px;
+    margin-left: 17px;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.activites_frioul {
+    width: 360px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_image_2 {
+    width: 360px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.activites_marseille_2 {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 210px;
+    width: 360px;
+    margin-bottom: 5%;
+    margin-left: 17px;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.pieds_page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    font-size: 20px;
+    padding: 5px 325px 23px 65px;
+    font-weight: bold;
+}
+
+}
