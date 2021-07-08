@@ -456,14 +456,14 @@ input{
     margin-left: -15px;
     padding: 27px 15px 18px 30px;
     border-radius: 15px 15px 15px 15px;
-    background-color: #3c3dff;
+    background-color: #0065FC;
     color: white;
     font-size: 0px;
     position: absolute;
 }
 
 .fa-search{
-	background-color: #3c3dff;
+	background-color: #0065FC;
     color: white;
     font-size: 16px;
     position: absolute;
@@ -478,9 +478,9 @@ input{
 }
 
 .fa-money-bill-wave {
-    color: blue;
-    background-color: #87c8ff;
-    border: 1px solid #87c8ff;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 1px solid #DEEBFF;
     border-radius: 50px;
     padding: 10px;
     margin-right: 8px;
@@ -489,14 +489,14 @@ input{
 .economique {
      background-color: white;
     border-radius: 50px;
-    border: 1px solid #c2d9ec;
+    border: 1px solid #DEEBFF;
     font-size: 17px;
  }
 
  .fa-child  {
-    color: blue;
-    background-color: #87c8ff;
-    border: 1px solid #87c8ff;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 1px solid #DEEBFF;
     border-radius: 50px;
     padding: 10px;
     margin-right: 8px;
@@ -506,15 +506,15 @@ input{
 .familial{
 	background-color: white;
     border-radius: 50px;
-    border: 1px solid #c2d9ec;
+    border: 1px solid #DEEBFF;
     font-size: 17px;
     margin-left: 15px;
 }
 
 .fa-heart {
-    color: blue;
-    background-color: #87c8ff;
-    border: 1px solid #87c8ff;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 1px solid #DEEBFF;
     border-radius: 50px;
     padding: 10px;
     margin-right: 10px;
@@ -524,16 +524,16 @@ input{
 .romantique {
     background-color: white;
     border-radius: 50px;
-    border: 1px solid #c2d9ec;
+    border: 1px solid #DEEBFF;
     font-size: 17px;
     margin-left: 5px;
     margin-top: 10px;
 }
 
 .fa-dog {
-    color: blue;
-    background-color: #87c8ff;
-    border: 1px solid #87c8ff;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 1px solid #DEEBFF;
     border-radius: 50px;
     padding: 10px;
     margin-right: 8px;
@@ -543,7 +543,7 @@ input{
 .animaux {
     background-color: white;
     border-radius: 50px;
-    border: 1px solid #c2d9ec;
+    border: 1px solid #DEEBFF;
     font-size: 17px;
     margin-left: 5px;
     margin-top: 10px;
