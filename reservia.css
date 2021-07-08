@@ -549,7 +549,7 @@ input{
 }
 
 .populaire {
-    width: 330px;
+    width: 380px;
     height: 675px;
     background-color: whitesmoke;
     border-radius: 25px;
@@ -557,7 +557,7 @@ input{
 .populaire_image {
     max-width: 350px;
     max-height: 300px;
-    width: 130px;
+    width: 170px;
     height: 180px;
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -577,8 +577,7 @@ input{
 .populaire_article {
     border: 2px solid white;
     background-color: white;
-    margin: -40px 25px 20px 15px;
-    width: 390px;
+    margin: 0px -20px 0px 10px;
     height: 179px;
     border-radius: 15px;
     display: flex;
