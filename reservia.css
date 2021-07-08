@@ -652,7 +652,12 @@ input{
 }
 
 .titre_activites{
-    margin-left: 30px;
+    margin-left: 8px;
+}
+.marseille_activites {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
 }
 
 .activites_image{
@@ -736,8 +741,9 @@ input{
     justify-content: space-between;
     background-color: whitesmoke;
     font-size: 20px;
-    padding: 5px 325px 23px 65px;
+    padding: 5px 23px 23px 20px;
     font-weight: bold;
+    width: 290px;
 }
 
 }
