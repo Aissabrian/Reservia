@@ -384,6 +384,7 @@ header{
 	display: flex;
     justify-content: space-evenly;
     font-size: 25px;
+    margin-left: -20px;
 }
 
 .logo{
@@ -412,7 +413,10 @@ header{
 .menu-inscription{
 	position: relative;
 	left: 35px;
-	bottom: -20px;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 32px;
+	
 }
 
 a:hover{
@@ -420,8 +424,8 @@ a:hover{
 	color: blue;
 }
 
-h1{
-    font-size: 28px;
+.titre{
+    font-size: 12px;
     margin-left: 12px;
 }
 
