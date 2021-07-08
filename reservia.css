@@ -377,14 +377,13 @@ a{
 
 
 
-@media all and (max-width:1024px)
-{
+@media all and (max-width:1024px);
 
 header{
 	display: flex;
     justify-content: space-evenly;
     font-size: 25px;
-    margin-left: -20px;
+    margin-left: 10px;
 }
 
 .logo{
@@ -429,7 +428,7 @@ p{
 
 .titre{
     font-size: 12px;
-    margin-left: 12px;
+    margin-left: 40px;
 }
 
 .fa-map-marker-alt{
