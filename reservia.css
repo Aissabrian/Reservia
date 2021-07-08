@@ -161,7 +161,7 @@ input{
 	height: auto;
 	display: flex;
 	flex-direction: column;
-	background-color:#eff3f2;
+	background-color:#F2F2F2;
 	border-radius: 25px;
 }
 
@@ -178,14 +178,17 @@ input{
 }
 
 #hebergements{
-	margin-left: 2%;
+	margin: 30px 0px 15px 30px;
+}
+.hebergements_marseille{
+    margin-left: 20px;
 }
 
 .marseille_article{
 	border: 2px solid white;
 	background-color: white;
-	margin: 1%;
-	width: 350px;
+	margin: 15px 15px 20px 30px;
+	width: 320px;
 	height: 300px;
 	border-radius: 15px;
 	display: flex;
@@ -196,8 +199,8 @@ input{
 .marseille_image{
 	max-width: 350px;
 	max-height: 300px;
-	width: 100%;
-	height: 60%;
+	width: 320px;
+	height: 170px;
 	object-fit: cover;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -233,6 +236,12 @@ input{
 	border-bottom-left-radius: 15px;
     margin-right: 10px;
 }
+.populaire_div{
+    margin-left: 20px;
+}
+.lien_populaire{
+    display: flex;
+}
 
 .marseille_populaire{
 	margin-left: 5%;
@@ -243,7 +252,7 @@ input{
 }
 
 .more{
-	position: relative; 
+	margin-left: 30px; 
 }
 
 a{
