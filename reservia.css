@@ -154,8 +154,13 @@ input{
 .hebergements{
 	display: flex;
 	justify-content: space-around;
+    margin-left: -60px;
+    margin-right: 40px;
 }
 
+.none{
+    font-size: 0px;
+}
 .marseille{
 	width: 60%;
 	height: auto;
@@ -418,9 +423,9 @@ header{
 	
 }
 
-a:hover{
-	text-decoration: underline;
-	color: blue;
+a{
+    text-decoration: none;
+    color: black;
 }
 p{
     font-size: 16px;
@@ -601,6 +606,7 @@ input{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
+    margin-left: 10px;
  }
 
 .marseille_image{
@@ -622,6 +628,9 @@ input{
     box-shadow: 1px 1px 5px silver;
 }
 
+#hebergements{
+    margin-left: 10px;
+}
 .hebergements_marseille{
     margin-left: 20px;
     margin-top: -18px;
@@ -647,10 +656,11 @@ input{
 
 .more{
 	position: relative;
+    margin-left: 0px;
 }
 
 .titre_activites{
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .marseille_activites {
     display: flex;
