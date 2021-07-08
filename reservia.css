@@ -467,7 +467,7 @@ input{
 }
 
 .filtres{
-    margin: 0px 0px 10px -10px;
+    margin: 0px 0px 10px -20px;
     display: flex;
     flex-wrap: wrap;
     padding: 0px 15px 0px 15px;
@@ -523,6 +523,7 @@ input{
     border: 1px solid #c2d9ec;
     font-size: 17px;
     margin-left: 5px;
+    margin-top: 10px;
 }
 
 .fa-dog {
@@ -541,6 +542,7 @@ input{
     border: 1px solid #c2d9ec;
     font-size: 17px;
     margin-left: 5px;
+    margin-top: 10px;
 }
 
 .marseille_populaire{
