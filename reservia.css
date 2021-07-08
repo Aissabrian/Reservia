@@ -604,9 +604,9 @@ input{
  }
 
 .marseille_image{
-    max-width: 350px;
+    max-width: 400px;
     max-height: 300px;
-    width: 300px;
+    width: 365px;
     height: 135px;
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -615,8 +615,8 @@ input{
  .marseille_article{
 	border: 1px solid white;
     background-color: white;
-    margin: 5px 10px 5px 20px;
-    width: 300px;
+    margin: 5px 10px 5px 10px;
+    width: 365px;
     height: 235px;
     border-radius: 15px;
     box-shadow: 1px 1px 5px silver;
@@ -635,7 +635,7 @@ input{
     flex-direction: column;
     background-color: white;
     border-radius: 25px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 
 .marseille_conteneur {
