@@ -352,9 +352,9 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: silver;
+    background-color: #F2F2F2;
     font-size: 20px;
-    padding: 5px 550px 23px 65px;
+    padding: 5px 655px 23px 65px;
     font-weight: bold;
 }
 
