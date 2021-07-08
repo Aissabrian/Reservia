@@ -550,15 +550,15 @@ input{
 }
 
 .populaire {
-    width: 390px;
-    height: 820px;
+    width: 330px;
+    height: 675px;
     background-color: whitesmoke;
     border-radius: 25px;
 }
 .populaire_image {
     max-width: 350px;
     max-height: 300px;
-    width: 140px;
+    width: 130px;
     height: 180px;
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -571,8 +571,8 @@ input{
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
-    width: 390px;
-    height: 730px;
+    width: 340px;
+    height: 780px;
 }
 
 .populaire_article {
@@ -587,13 +587,16 @@ input{
     flex-wrap: nowrap;
     box-shadow: 1px 1px 5px silver;
     justify-content: space-between;
+    margin-top: -97px;
+    margin-bottom: -100px;
 }
 
 .populaire_div{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 17px;
+    font-size: 14px;
+    margin-left: 1px;
 }
 
 .hebergements {
@@ -605,8 +608,8 @@ input{
 .marseille_image{
     max-width: 350px;
     max-height: 300px;
-    width: 100%;
-    height: 50%;
+    width: 300px;
+    height: 135px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -615,10 +618,16 @@ input{
 	border: 1px solid white;
     background-color: white;
     margin: 5px 10px 5px 20px;
-    width: 350px;
+    width: 300px;
     height: 235px;
     border-radius: 15px;
     box-shadow: 1px 1px 5px silver;
+}
+
+.hebergements_marseille{
+    margin-left: 20px;
+    margin-top: -18px;
+    font-size: 15px;
 }
 
 .marseille {
