@@ -4,7 +4,7 @@ body{
 .logo{
     height: 60px;
     width: 120px;
-
+    margin-left: 50px;
 }
 header{
 	display: flex;
@@ -22,7 +22,7 @@ header{
 }
 
 .menu-hebergements{
-	color: blue;
+	color: #0065FC;
 	border-top: 2px blueviolet solid;
 	padding-top: 4%;	
 }
@@ -33,113 +33,122 @@ header{
 }
 
 .menu-inscription{
-	color: blue;
-	margin-right: 3%;
-	margin-top: 1%;
+	color: #0065FC;
+	margin-right: 70px;
+	margin-top: 22px;
+}
+.titre{
+    margin-left: 50px;
 }
 
 .fa-map-marker-alt{
-	border: 1px solid black;
-    padding: 0.5%;
-    background-color: silver;
+    border: 1px solid #F2F2F2;
+    padding: 10px 15px 10px 15px;
+    background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
 }
 
 input{
-	padding: 0.5%;
+	padding: 11px 0px 10px 15px;
     margin-left: -0.5%;
     position: relative;
     top: -1px;
+    border: 1px solid #F2F2F2;
 }
 
 .recherche{
-	border: 1px solid black;
-	padding: 0.5%;
-    margin-left: -0.5%;
+	border: 1px solid #F2F2F2;
+	padding: 9px 12px 8px 15px;
+    margin-left: -5px;
     border-radius: 0px 15px 15px 0px;
-    background-color: #3c3dff;
+    background-color: #0065FC;
     color: white;
+    font-size: 18px;
 }
 
 .fa-search{
 	font-size: 0px;
 }
 .filtres{
-	margin-top: -2.3%;
+	margin-top: -52px;
 	margin-left: 5%;
+    font-weight: bold;
 }
 
 .economique{
 	background-color: white;
    border-radius: 50px;
-   border: 1px solid #c2d9ec;
+   border: 1px solid #DEEBFF;
    padding: 0px 10px 0px 0px;
+   margin-right: 10px;
 }
 
 .fa-money-bill-wave{
-	color: blue;
-   background-color: #87c8ff;
-   border: 1px solid #87c8ff;
+	color: #0065FC;
+   background-color: #DEEBFF;
+   border: 1px solid #DEEBFF;
    border-radius: 50px;
-   padding: 8px;
+   padding: 10px;
    margin-right: 8px;
 }
 
 .familial{
 	background-color: white;
    border-radius: 50px;
-   border: 1px solid #c2d9ec;
+   border: 1px solid #DEEBFF;
    padding: 0px 10px 0px 0px;
+   margin-right: 10px;
 }
 
 .fa-child{
-	color: blue;
-   background-color: #87c8ff;
-   border: 1px solid #87c8ff;
+	color: #0065FC;
+   background-color: #DEEBFF;
+   border: 1px solid #DEEBFF;
    border-radius: 50px;
-   padding: 8px;
+   padding: 10px;
    margin-right: 8px;
 }
 
 .romantique{
 	background-color: white;
    border-radius: 50px;
-   border: 1px solid #c2d9ec;
+   border: 1px solid #DEEBFF;
    padding: 0px 10px 0px 0px;
+   margin-right: 10px;
 }
 
 .fa-heart{
-	color: blue;
-   background-color: #87c8ff;
-   border: 1px solid #87c8ff;
+	color: #0065FC;
+   background-color: #DEEBFF;
+   border: 1px solid #DEEBFF;
    border-radius: 50px;
-   padding: 8px;
+   padding: 10px;
    margin-right: 8px;
 }
 
 .animaux{
 	background-color: white;
    border-radius: 50px;
-   border: 1px solid #c2d9ec;
+   border: 1px solid #DEEBFF;
    padding: 0px 10px 0px 0px;
 }
 
 .fa-dog{
-	color: blue;
-   background-color: #87c8ff;
-   border: 1px solid #87c8ff;
+   color: #0065FC;
+   background-color: #DEEBFF;
+   border: 1px solid #DEEBFF;
    border-radius: 50px;
-   padding: 8px;
+   padding: 10px;
    margin-right: 8px;
 }
 
 .fa-info{
-	font-size: 16px;
+	font-size: 13px;
 	background-color: white;
-	color: blue;
-	border: 1px solid skyblue;
-	border-radius: 50px 50px 50px 50px;
-	padding: 8px 13px 8px 13px;
+	color: #0065FC;
+	border: 1px solid #DEEBFF;
+	border-radius: 90px 90px 90px 90px;
+	padding: 3px 6px 3px 6px;
 }
 
 .hebergements{
