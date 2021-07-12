@@ -414,7 +414,11 @@ header{
 .activites_marseille{
     width: 330px;
 }
-
+.pieds_page{
+    width: 800px;
+    justify-content: space-around;
+    padding: 5px 55px 23px 65px;
+}
 @media all and (max-width: 600px)
 {
     body{
