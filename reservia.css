@@ -376,6 +376,9 @@ a{
 .assistance{
     display: flex;
 }
+
+
+
 @media screen and (max-width: 1024px)
 {
 header{
@@ -388,21 +391,35 @@ header{
     margin-right: 40px;
     flex-direction: column-reverse;
  }
-.populaire_conteneur{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
+
 .populaire{
     width: 895px;
     margin-left: 85px;
 }
 .populaire_image{
-    width: 180px;
+    width: 245px;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px ;
+}
+.populaire_conteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
 }
 .populaire_article{
-    font-size: 10px;
+    width: 245px;
+    height: 320px;
+    font-size: 22px;
 }
+.lien_populaire{
+    display: flex;
+    flex-wrap: wrap;
+}
+.populaire_div{
+    margin-top: -20px;
+}
+
+
 .marseille{
     margin-top: 15px;
     margin-left: 83px;
@@ -419,11 +436,13 @@ header{
     justify-content: space-around;
     padding: 5px 55px 23px 65px;
 }
-@media all and (max-width: 600px)
+
+
+
+
+
+@media screen and (max-width: 600px)
 {
-    body{
-        background-color: white;
-    }
 header{
     display: flex;
     justify-content: space-evenly;
@@ -598,7 +617,7 @@ input{
     height: 675px;
     background-color: whitesmoke;
     border-radius: 25px;
-    margin-left: 0px;
+   margin-left: 0px;
 }
 .populaire_image {
     max-width: 350px;
@@ -609,7 +628,11 @@ input{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-right: 10px;
-    }
+}
+.lien_populaire{
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 .populaire_conteneur {
     display: flex;
@@ -625,6 +648,7 @@ input{
     background-color: white;
     margin: 0px -20px 0px 10px;
     height: 179px;
+    width: 500px;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -795,5 +819,8 @@ input{
     font-weight: bold;
     width: 330px;
 }
+
+
+
 
 
