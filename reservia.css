@@ -273,7 +273,7 @@ a{
 }
 
 .titre_activites{
-    margin-left: 75px;
+    margin-left: 62px;
 }
 
 .activites_titre{
@@ -377,7 +377,9 @@ a{
     display: flex;
 }
 
-
+.fa-arrow-trend-up{
+    font-size: 50px;
+}
 
 @media screen and (max-width: 1024px)
 {
@@ -452,6 +454,9 @@ header{
 }
 .activites_image{
     width: 330px;
+}
+.titre_activites {
+    margin-left: 45px;
 }
 .pieds_page{
     width: 800px;
