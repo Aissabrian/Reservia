@@ -376,51 +376,87 @@ a{
 .assistance{
     display: flex;
 }
-
-
-
-
-
-
-@media all and (max-width:1024px)
+@media screen and (max-width: 1024px)
 {
 header{
-	display: flex;
+    font-size: 50px;
+}
+.hebergements {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -60px;
+    margin-right: 40px;
+    flex-direction: column-reverse;
+ }
+.populaire_conteneur{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.populaire{
+    width: 895px;
+    margin-left: 85px;
+}
+.populaire_image{
+    width: 180px;
+}
+.populaire_article{
+    font-size: 10px;
+}
+.marseille{
+    margin-top: 15px;
+    margin-left: 83px;
+    width: 895px;
+}
+.marseille_article{
+    width: 395px;
+}
+.activites_marseille{
+    width: 330px;
+}
+
+@media all and (max-width: 600px)
+{
+    body{
+        background-color: white;
+    }
+header{
+    display: flex;
     justify-content: space-evenly;
     font-size: 25px;
     margin-left: 10px;
 }
 
 .logo{
-	width: 40%;
-	height: 40%;
+    width: 40%;
+    height: 40%;
 }
 
 #menu{
-	font-size: 20px;
-	margin-right: -38%;
-	margin-top: 20%;
-	margin-bottom: 4%;
-	padding-left: 5%;
+    font-size: 20px;
+    margin-right: -38%;
+    margin-top: 20%;
+    margin-bottom: 4%;
+    padding-left: 5%;
 }
 
 .menu-hebergements{
-	border-top: none;
-	margin-right: 51%;
-	margin-left: -88%;
+    border-top: none;
+    margin-right: 51%;
+    margin-left: -88%;
 }
 
 .menu-activites{
-	margin-right: 30%;
+    margin-right: 30%;
 }
 
 .menu-inscription{
-	position: relative;
-	left: 35px;
+    position: relative;
+    left: 35px;
     font-size: 15px;
     margin-left: 60px;
     margin-top: 32px;
-	
+    
 }
 
 a{
@@ -445,8 +481,8 @@ p{
 }
 
 input{
-	font-size: 17px;
-	padding: 11px 15px 14px 11px;
+    font-size: 17px;
+    padding: 11px 15px 14px 11px;
     margin-left: -3px;
     border: 1px solid #F2F2F2;
 }
@@ -463,7 +499,7 @@ input{
 }
 
 .fa-search{
-	background-color: #0065FC;
+    background-color: #0065FC;
     color: white;
     font-size: 16px;
     position: absolute;
@@ -504,7 +540,7 @@ input{
 }
 
 .familial{
-	background-color: white;
+    background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
     font-size: 17px;
@@ -558,6 +594,7 @@ input{
     height: 675px;
     background-color: whitesmoke;
     border-radius: 25px;
+    margin-left: 0px;
 }
 .populaire_image {
     max-width: 350px;
@@ -576,7 +613,7 @@ input{
     flex-wrap: wrap;
     align-content: space-around;
     width: 340px;
-    height: 780px;
+    height: 580px;
 }
 
 .populaire_article {
@@ -619,7 +656,7 @@ input{
     border-top-right-radius: 15px;
 }
  .marseille_article{
-	border: 1px solid white;
+    border: 1px solid white;
     background-color: white;
     margin: 5px 10px 5px 10px;
     width: 365px;
@@ -645,6 +682,7 @@ input{
     background-color: white;
     border-radius: 25px;
     margin-top: 5px;
+    margin-left: 0px;
 }
 
 .marseille_conteneur {
@@ -655,7 +693,7 @@ input{
 }
 
 .more{
-	position: relative;
+    position: relative;
     margin-left: 0px;
 }
 
@@ -754,4 +792,4 @@ input{
     width: 330px;
 }
 
-}
+
