@@ -448,6 +448,10 @@ header{
 }
 .activites_marseille{
     width: 330px;
+    margin: 0px 20px 28px 45px;
+}
+.activites_image{
+    width: 330px;
 }
 .pieds_page{
     width: 800px;
