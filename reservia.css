@@ -386,7 +386,7 @@ header{
 }
 #menu{
     font-size: 20px;
-    padding-left: 50%;
+    padding-left: 45%;
 }
 .menu-hebergements{
     margin-right: 30px;
@@ -408,7 +408,7 @@ header{
  }
 
 .populaire{
-    width: 895px;
+    width: 890px;
     margin-left: 85px;
 }
 .populaire_image{
@@ -434,11 +434,14 @@ header{
     margin-top: -20px;
 }
 
-
+.marseille_image{
+    max-width: 500px;
+    width: 395px;
+}
 .marseille{
     margin-top: 15px;
     margin-left: 83px;
-    width: 895px;
+    width: 890px;
 }
 .marseille_article{
     width: 395px;
