@@ -11,7 +11,6 @@ header{
 	justify-content: space-between;
 	width: 100%;
 }
-
 #menu{
 	font-size: 15px;
 	display: flex;
@@ -20,18 +19,15 @@ header{
 	width: 40%;
 	height: 10%;
 }
-
 .menu-hebergements{
 	color: #0065FC;
 	border-top: 2px blueviolet solid;
 	padding-top: 4%;	
 }
-
 .menu-activites{
 	padding-top: 4%;
 	color: black;
 }
-
 .menu-inscription{
 	color: #0065FC;
 	margin-right: 70px;
@@ -40,14 +36,12 @@ header{
 .titre{
     margin-left: 50px;
 }
-
 .fa-map-marker-alt{
     border: 1px solid #F2F2F2;
     padding: 10px 15px 10px 15px;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
 }
-
 input{
 	padding: 11px 0px 10px 15px;
     margin-left: -0.5%;
@@ -55,7 +49,6 @@ input{
     top: -1px;
     border: 1px solid #F2F2F2;
 }
-
 .recherche{
 	border: 1px solid #F2F2F2;
 	padding: 9px 12px 8px 15px;
@@ -65,7 +58,6 @@ input{
     color: white;
     font-size: 18px;
 }
-
 .fa-search{
 	font-size: 0px;
 }
@@ -74,7 +66,6 @@ input{
 	margin-left: 5%;
     font-weight: bold;
 }
-
 .economique{
 	background-color: white;
    border-radius: 50px;
@@ -105,7 +96,6 @@ input{
     transform: scale(1.2);
     background-color: #DEEBFF;
 }
-
 .fa-child{
 	color: #0065FC;
    background-color: #DEEBFF;
@@ -114,7 +104,6 @@ input{
    padding: 10px;
    margin-right: 8px;
 }
-
 .romantique{
 	background-color: white;
    border-radius: 50px;
@@ -134,7 +123,6 @@ input{
    padding: 10px;
    margin-right: 8px;
 }
-
 .animaux{
 	background-color: white;
    border-radius: 50px;
@@ -145,7 +133,6 @@ input{
     transform: scale(1.2);
     background-color: #DEEBFF;
 }
-
 .fa-dog{
    color: #0065FC;
    background-color: #DEEBFF;
@@ -154,7 +141,6 @@ input{
    padding: 10px;
    margin-right: 8px;
 }
-
 .fa-info{
 	font-size: 13px;
 	background-color: white;
@@ -163,14 +149,12 @@ input{
 	border-radius: 90px 90px 90px 90px;
 	padding: 3px 6px 3px 6px;
 }
-
 .hebergements{
 	display: flex;
 	justify-content: space-around;
     margin-left: -60px;
     margin-right: 40px;
 }
-
 .none{
     font-size: 0px;
 }
@@ -182,29 +166,24 @@ input{
 	background-color:#F2F2F2;
 	border-radius: 25px;
 }
-
 .populaire{
 	width: 30%;
 	background-color: #eff3f2;
 	border-radius: 25px;
 }
-
 .marseille_conteneur{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-
 #hebergements{
 	margin: 30px 0px 15px 35px;
 }
-
 .hebergements_marseille{
     margin-left: 20px;
     margin-top: -18px;
     font-size: 20px;
 }
-
 .marseille_article{
 	border: 2px solid white;
 	background-color: white;
@@ -216,7 +195,6 @@ input{
 	flex-direction: column;
     box-shadow: 1px 1px 5px silver;
 }
-
 .marseille_image{
 	max-width: 350px;
 	max-height: 300px;
@@ -226,7 +204,6 @@ input{
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
-
 .populaire_conteneur{
 	display: flex;
 	flex-direction: row;
@@ -234,7 +211,6 @@ input{
 	align-content: center;
 	width: 550px;
 }
-
 .populaire_article{
 	border: 2px solid white;
     background-color: white;
@@ -248,7 +224,6 @@ input{
     flex-wrap: nowrap;
     box-shadow: 1px 1px 5px silver;
 }
-
 .populaire_image{
 	max-width: 350px;
 	max-height: 300px;
@@ -259,49 +234,39 @@ input{
 	border-bottom-left-radius: 15px;
     margin-right: 10px;
 }
-
 .populaire_div{
     margin-left: 20px;
 }
-
 .lien_populaire{
     display: flex;
 }
-
 .marseille_populaire{
 	margin-left: 5%;
     display: flex;
     justify-content: space-between;
     margin-right: 40px;
 }
-
 .fa-star{
 	color: blue;
 }
-
 .more{
 	margin-left: 35px; 
 }
-
 a{
 	text-decoration: none;
     color: black;
 }
-
 .titre_activites{
     margin-left: 62px;
 }
-
 .activites_titre{
     margin-left: 20px;
 }
-
 .marseille_activites{
 	display: flex;
 	flex-wrap: wrap;
     margin-left: -20px;
 }
-
 .activites_photo{
     max-width: 350px;
     max-height: 224px;
@@ -311,7 +276,6 @@ a{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .activites_image{
     max-width: 350px;
     max-height: 500px;
@@ -321,21 +285,18 @@ a{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .activites_frioul{
     width: 350px;
     height: 150px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .activites_image_2{
     width: 350px;
     height: 180px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .activites_marseille{
 	border: 1px solid white;
     background-color: white;
@@ -347,7 +308,6 @@ a{
     flex-direction: column;
     box-shadow: 1px 1px 5px silver;
 }
-
 .activites_marseille_0{
     border: 1px solid white;
     border-radius: 15px;
@@ -356,7 +316,6 @@ a{
     margin-bottom: 5%;
     box-shadow: 1px 1px 5px silver;
 }
-
 .activites_marseille_1{
     border: 1px solid white;
     border-radius: 15px;
@@ -365,7 +324,6 @@ a{
     margin-bottom: 5%;
     box-shadow: 1px 1px 5px silver;
 }
-
 .activites_marseille_2{
      border: 1px solid white;
     border-radius: 15px;
@@ -374,7 +332,6 @@ a{
     margin-bottom: 5%;
     box-shadow: 1px 1px 5px silver;
 }
-
 .pieds_page{
     display: flex;
     flex-wrap: wrap;
@@ -384,20 +341,15 @@ a{
     padding: 5px 655px 23px 65px;
     font-weight: bold;
 }
-
 .propos{
     display: flex;
 }
-
 .nos_hebergements{
     display: flex;
 }
-
 .assistance{
     display: flex;
 }
-
-
 @media screen and (max-width: 1024px)
 {
 header{
@@ -418,14 +370,13 @@ header{
 .filtres{
     margin-left: 12%;
 }
-.hebergements {
+.hebergements{
     display: flex;
     justify-content: space-around;
     margin-left: -60px;
     margin-right: 40px;
     flex-direction: column-reverse;
  }
-
 .populaire{
     width: 890px;
     margin-left: 75px;
@@ -452,7 +403,6 @@ header{
 .populaire_div{
     margin-top: -20px;
 }
-
 .marseille_image{
     max-width: 500px;
     width: 395px;
@@ -475,7 +425,7 @@ header{
 .activites_image{
     width: 330px;
 }
-.titre_activites {
+.titre_activites{
     margin-left: 45px;
 }
 .pieds_page{
@@ -483,11 +433,6 @@ header{
     justify-content: space-around;
     padding: 5px 55px 23px 65px;
 }
-
-
-
-
-
 @media screen and (max-width: 600px)
 {
 header{
@@ -496,12 +441,10 @@ header{
     font-size: 25px;
     margin-left: 5px;
 }
-
 .logo{
     width: 40%;
     height: 40%;
 }
-
 #menu{
     font-size: 20px;
     margin-right: -38%;
@@ -509,17 +452,14 @@ header{
     margin-bottom: 4%;
     padding-left: 5%;
 }
-
 .menu-hebergements{
     border-top: none;
     margin-right: 51%;
     margin-left: -88%;
 }
-
 .menu-activites{
     margin-right: 30%;
 }
-
 .menu-inscription{
     position: relative;
     left: 35px;
@@ -528,7 +468,6 @@ header{
     margin-top: 32px;
     
 }
-
 a{
     text-decoration: none;
     color: black;
@@ -536,12 +475,10 @@ a{
 p{
     font-size: 16px;
 }
-
 .titre{
     font-size: 12px;
     margin-left: 20px;
 }
-
 .fa-map-marker-alt{
     border: 1px solid #F2F2F2;
     padding: 13px 13px 16px 13px;
@@ -549,14 +486,12 @@ p{
     border-radius: 10px 0px 0px 10px;
     font-size: 16px;
 }
-
 input{
     font-size: 17px;
     padding: 11px 15px 14px 11px;
     margin-left: -3px;
     border: 1px solid #F2F2F2;
 }
-
 .recherche{
     border: 1px solid #F2F2F2;
     margin-left: -15px;
@@ -567,7 +502,6 @@ input{
     font-size: 0px;
     position: absolute;
 }
-
 .fa-search{
     background-color: #0065FC;
     color: white;
@@ -575,15 +509,13 @@ input{
     position: absolute;
     margin: 15px 0px 0px 0px;
 }
-
 .filtres{
     margin: 0px 0px 10px -20px;
     display: flex;
     flex-wrap: wrap;
     padding: 0px 15px 0px 15px;
 }
-
-.fa-money-bill-wave {
+.fa-money-bill-wave{
     color: #0065FC;
     background-color: #DEEBFF;
     border: 1px solid #DEEBFF;
@@ -591,15 +523,13 @@ input{
     padding: 10px;
     margin-right: 8px;
 }
-
-.economique {
+.economique{
      background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
     font-size: 17px;
  }
-
- .fa-child  {
+ .fa-child{
     color: #0065FC;
     background-color: #DEEBFF;
     border: 1px solid #DEEBFF;
@@ -608,7 +538,6 @@ input{
     margin-right: 8px;
     margin-left: -6px;
 }
-
 .familial{
     background-color: white;
     border-radius: 50px;
@@ -616,8 +545,7 @@ input{
     font-size: 17px;
     margin-left: 15px;
 }
-
-.fa-heart {
+.fa-heart{
     color: #0065FC;
     background-color: #DEEBFF;
     border: 1px solid #DEEBFF;
@@ -626,8 +554,7 @@ input{
     margin-right: 10px;
     margin-left: -6px;
 }
-
-.romantique {
+.romantique{
     background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
@@ -635,8 +562,7 @@ input{
     margin-left: 5px;
     margin-top: 10px;
 }
-
-.fa-dog {
+.fa-dog{
     color: #0065FC;
     background-color: #DEEBFF;
     border: 1px solid #DEEBFF;
@@ -645,8 +571,7 @@ input{
     margin-right: 8px;
     margin-left: -6px;
 }
-
-.animaux {
+.animaux{
     background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
@@ -654,19 +579,17 @@ input{
     margin-left: 5px;
     margin-top: 10px;
 }
-
 .marseille_populaire{
     margin-left: 20px;
 }
-
-.populaire {
+.populaire{
     width: 380px;
     height: 675px;
     background-color: whitesmoke;
     border-radius: 25px;
    margin-left: -8px;
 }
-.populaire_image {
+.populaire_image{
     max-width: 350px;
     max-height: 300px;
     width: 170px;
@@ -680,8 +603,7 @@ input{
     display: flex;
     flex-wrap: nowrap;
 }
-
-.populaire_conteneur {
+.populaire_conteneur{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -689,8 +611,7 @@ input{
     width: 340px;
     height: 580px;
 }
-
-.populaire_article {
+.populaire_article{
     border: 2px solid white;
     background-color: white;
     margin: 0px -20px 0px 10px;
@@ -705,7 +626,6 @@ input{
     margin-top: -97px;
     margin-bottom: -100px;
 }
-
 .populaire_div{
     display: flex;
     flex-direction: column;
@@ -713,14 +633,12 @@ input{
     font-size: 14px;
     margin-left: 1px;
 }
-
-.hebergements {
+.hebergements{
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
     margin-left: 10px;
  }
-
 .marseille_image{
     max-width: 400px;
     max-height: 300px;
@@ -739,7 +657,6 @@ input{
     border-radius: 15px;
     box-shadow: 1px 1px 5px silver;
 }
-
 #hebergements{
     margin-left: 10px;
 }
@@ -748,8 +665,7 @@ input{
     margin-top: -18px;
     font-size: 15px;
 }
-
-.marseille {
+.marseille{
     width: 390px;
     height: 1630px;
     display: flex;
@@ -759,28 +675,24 @@ input{
     margin-top: 5px;
     margin-left: -10px;
 }
-
-.marseille_conteneur {
+.marseille_conteneur{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .more{
     position: relative;
     margin-left: 15px;
 }
-
 .titre_activites{
     margin-left: 10px;
 }
-.marseille_activites {
+.marseille_activites{
     display: flex;
     flex-wrap: wrap;
     margin-left: -10px;
 }
-
 .activites{
     margin-left: 5px;
 }
@@ -793,7 +705,6 @@ input{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .activites_marseille{
     border: 1px solid white;
     background-color: white;
@@ -805,7 +716,7 @@ input{
     flex-direction: column;
     box-shadow: 1px 1px 5px silver;
 }
-.activites_marseille_0 {
+.activites_marseille_0{
     border: 1px solid white;
     border-radius: 15px;
     height: 235px;
@@ -814,8 +725,7 @@ input{
     margin-left: 17px;
     box-shadow: 1px 1px 5px silver;
 }
-
-.activites_photo {
+.activites_photo{
     max-width: 400px;
     max-height: 224px;
     width: 361px;
@@ -824,8 +734,7 @@ input{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
-.activites_marseille_1 {
+.activites_marseille_1{
     border: 1px solid white;
     border-radius: 15px;
     height: 210px;
@@ -834,22 +743,19 @@ input{
     margin-left: 17px;
     box-shadow: 1px 1px 5px silver;
 }
-
-.activites_frioul {
+.activites_frioul{
     width: 361px;
     height: 150px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
-.activites_image_2 {
+.activites_image_2{
     width: 361px;
     height: 150px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
-.activites_marseille_2 {
+.activites_marseille_2{
     border: 1px solid white;
     border-radius: 15px;
     height: 210px;
@@ -858,8 +764,7 @@ input{
     margin-left: 17px;
     box-shadow: 1px 1px 5px silver;
 }
-
-.pieds_page {
+.pieds_page{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -869,8 +774,4 @@ input{
     font-weight: bold;
     width: 345px;
 }
-
-
-
-
-
+}
