@@ -1,5 +1,7 @@
 body{
 	font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .logo{
     height: 60px;
@@ -432,6 +434,7 @@ header{
     width: 800px;
     justify-content: space-around;
     padding: 5px 55px 23px 65px;
+}
 }
 @media screen and (max-width: 600px)
 {
