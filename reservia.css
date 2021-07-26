@@ -699,9 +699,6 @@ input{
     display: flex;
     flex-wrap: wrap;
 }
-.activites{
-    margin-left: 5px;
-}
 .activites_image{
     max-width: 600px;
     max-height: 500px;
