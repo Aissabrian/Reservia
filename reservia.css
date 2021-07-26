@@ -1,3 +1,4 @@
+@media screen and (min-width:  1024px);
 body{
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
@@ -532,7 +533,7 @@ input{
      background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
-    font-size: 17px;
+    font-size: 20px;
  }
  .fa-child{
     color: #0065FC;
@@ -547,8 +548,9 @@ input{
     background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
-    font-size: 17px;
+    font-size: 20px;
     margin-left: 15px;
+    padding: 0px;
 }
 .fa-heart{
     color: #0065FC;
@@ -563,7 +565,7 @@ input{
     background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
-    font-size: 17px;
+    font-size: 20px;
     margin-left: 5px;
     margin-top: 10px;
 }
@@ -580,7 +582,7 @@ input{
     background-color: white;
     border-radius: 50px;
     border: 1px solid #DEEBFF;
-    font-size: 17px;
+    font-size: 20px;
     margin-left: 5px;
     margin-top: 10px;
 }
@@ -776,7 +778,6 @@ input{
     background-color: whitesmoke;
     font-size: 20px;
     padding: 5px 23px 23px 0px;
-    font-weight: bold;
     max-width: 569px;
 }
 .footer_nav{
